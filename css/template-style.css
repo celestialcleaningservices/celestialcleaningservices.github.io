@@ -2579,3 +2579,62 @@ aside {
     background-position: center;
   }
 }    
+
+/* a.fb-message-white {
+  font-size: 20px;
+  font-family: Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  color: #0084ff;
+  background-color: #fff;
+  border: 1px solid #ececec;
+  width: 200px;
+  height: 30px;
+  line-height: 45px;
+  position: fixed;
+  border-radius: 20px;
+  outline: none;
+  -webkit-transition: all ease .15s;
+  -o-transition: all ease .15s;
+  -moz-transition: all ease .15s;
+  transition: all ease .15s;
+}
+a.fb-message-white:hover {
+  background-color: #fafafa;
+  border: 1px solid #ccc;
+  -webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.2);
+  transform: scale(1.15); uncomment to add zoom effect
+} */
+/* a.fb-message-white:focus {
+  background-color: #fff;
+  border: 1px solid #bbb;
+  -webkit-box-shadow: inset 0px 0px 8px 0px rgba(0,0,0,0.3);
+  -moz-box-shadow: inset 0px 0px 8px 0px rgba(0,0,0,0.3);
+  box-shadow: inset 0px 0px 8px 0px rgba(0,0,0,0.3);
+} */
+
+.fb-message-white i {
+  background-image: url('https://i.imgur.com/WFeWHxl.png');
+  background-repeat: no-repeat;
+  background-size: 50px;
+  background-position: 20px 5px;
+  /* top: -1px; */
+  height: 60px;
+  width: 90px;
+  position: fixed;
+  /* padding: 10px 7px 30px; */
+  /* float: right; */
+  z-index: 1;
+  
+}
+.fb-message-white i:hover {
+  background-color: #fafafa;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  -webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.2);
+  transform: scale(1.15); 
+} 
+
